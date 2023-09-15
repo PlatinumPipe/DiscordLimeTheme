@@ -1,0 +1,76 @@
+/**
+ * @name Lime
+ * @author roy_is_cool
+ * @version 1.0
+ * @description Just the lime theme from beluga's discord 2 trailer.
+ * @source https://github.com/NYRI4/Comfy
+*/
+
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/main.css');
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css');
+@import url('https://comfy-themes.github.io/Discord/betterdiscord/better-spotify.css');
+
+:root {
+  --mention-color-bar: #5EF76B;
+  --mention-color-background: rgb(111,198,98,0.12);
+  --mention-color-hover: rgba(198, 98, 98, 0.15);
+  --mention-color: #F04747;
+  --unread-color: #72DAA3;
+  --chat-buttons: #72DA9F;
+  --avatar-radius: 5px;
+  --status-radius: 10px;
+  --server-radius: 8px;
+  --status-background: url('https://i.imgur.com/ODa8LKK.jpg');
+  --online: #1B9100;
+  --iddle: #CB840D;
+  --dnd: #A10000;
+  --offline: #434446;
+  --streaming: #5E00FF;
+  --spotify-color: #1EDC62;
+  --user-buttons-spacing: 8px;
+  --user-buttons-color: #09C043;
+  --role-circle: 10px;
+  --discord-logo: block;
+  --colored-emoji: grayscale(0%);
+  --disable-animations: 2s channel-unread infinite;
+}
+
+.theme-dark {
+  --background-primary: #1E3322;
+  --background-secondary: #1E3322;
+  --background-secondary-alt: #192E19;
+  --background-tertiary: #102015;
+  --background-mobile-primary: #233D24;
+  --background-mobile-secondary: #1E3327;
+  --channeltextarea-background: #191F2E;
+  --background-accent: #72DA96;
+  --background-modifier-hover: rgb(0,0,0,0.06);
+  --background-modifier-active: rgb(0,0,0,0.1);
+  --background-modifier-selected: rgb(0,0,0,0.12);
+  --deprecated-card-bg: rgb(18,31,20,0.39);
+  --background-floating: rgb(16,32,21,1);
+  --deprecated-quickswitcher-input-background: #102013;
+  --scrollbar-auto-thumb: #122217;
+  --scrollbar-auto-track: #192E20;
+  --scrollbar-thin-thumb: #152514;
+  --activity-card-background: #102013;
+  --background-message-hover: transparent;
+  --elevation-low: none;
+}
+
+.theme-light {
+  --background-primary: #23283D;
+  --background-secondary: #1E2233;
+  --background-secondary-alt: #191F2E;
+  --background-tertiary: #101320;
+  --background-accent: #7289DA;
+  --background-modifier-hover: #262B41;
+  --background-modifier-active: #262B41;
+  --header-primary: #fff;
+  --header-secondary: #B1B5B9;
+  --text-normal: #8E9297;
+}
+
+/* Any custom CSS below here */
+
+
